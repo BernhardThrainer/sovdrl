@@ -9,7 +9,7 @@ envs = ["Pendulum-v1","MountainCarContinuous-v0","Reacher-v2"]
 ts = [30_000,75_000,40_000]
 seeds = [24,62,94,19,51]
 
-plot = True        
+plot = False      
 
 
 rew_pendulum = np.zeros((625,37))
