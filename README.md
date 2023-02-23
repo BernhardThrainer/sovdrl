@@ -11,3 +11,9 @@ algorithm and the data generated during said training.
 ## Requirements
 
 run `$ pip install stable-baselines3[extra]` in your shell to install the depenencies.
+
+## Structure
+
+The `python/rl.py` file is used to train our agent and generate the data. It uses the `action_noise.py`
+file during the mountain-car environment training. The training data can be found under `data/environment/seed/progress.csv`.
+This data is read by the `data/stats.py` file which then generates the plots and ANOVAS used in the thesis.
